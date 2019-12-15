@@ -57,7 +57,7 @@ function draw() {
 
   count++;
 
-  rand = Math.round(random(-6,6));
+   rand = Math.round(random(-15,15));
 
   background(220);
   ball1.bounceOff(bottom_edge);
